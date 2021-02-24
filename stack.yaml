@@ -1,10 +1,11 @@
-resolver: lts-16.0
+resolver: lts-17.3
 extra-deps:
-  - elliptic-curve-0.3.0
-  - galois-field-1.0.2
+  - git: https://github.com/serokell/galois-field.git
+    commit: 25e564bcd39530dc3139b6ced0dacd81992a0a87
+  - git: https://github.com/serokell/elliptic-curve.git
+    commit: b8a3d0cf8f7bacfed77dc3b697f5d08bd33396a8
   - poly-0.4.0.0
   - semirings-0.5.3
   - vector-algorithms-0.8.0.3
   - mod-0.1.1.0
   - bitvec-1.0.3.0
-  - QuickCheck-2.13.2

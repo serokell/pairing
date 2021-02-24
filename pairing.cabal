@@ -25,7 +25,7 @@ common shared-dependencies
     , elliptic-curve    ^>=0.3
     , errors            ^>=2.3.0
     , galois-field      >=1.0.2  && <2.0
-    , groups            ^>=0.4.1
+    , groups
     , MonadRandom       ^>=0.5.1
     , protolude         >=0.2    && <0.4
     , tasty-quickcheck  ^>=0.10.1
